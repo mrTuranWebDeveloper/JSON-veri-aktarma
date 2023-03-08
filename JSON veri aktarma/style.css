@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: blue;
+    background-image: linear-gradient(315deg, blue 0%, white 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-color: white;
+    width: 60rem;
+    min-height: 30vh;
+    border-radius: 1rem;
+    box-shadow: 0 0 1.2rem 0.2rem,lightgray;
+    margin: 2rem;
+}
+
+#container > * {
+    margin: 1rem;
+    padding: 1rem;
+}
